@@ -41,6 +41,13 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <image>
+                        <env>
+                            <BPL_HEAP_DUMP_PATH>/tmp/heapdumps/hdump.hprof</BPL_HEAP_DUMP_PATH>
+                        </env>
+                    </image>
+                </configuration>
             </plugin>
 
         </plugins>
