@@ -1,0 +1,8 @@
+---
+version: '3.8'
+services:
+  gc-limit:
+    image: gc-limit:0.0.1-SNAPSHOT
+    mem_limit: 2G
+    ports:
+      - '80:8080'

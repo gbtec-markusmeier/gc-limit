@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gbtec</groupId>
-    <artifactId>GCLimit</artifactId>
+    <artifactId>gc-limit</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>GCLimit</name>
     <description>GCLimit</description>
